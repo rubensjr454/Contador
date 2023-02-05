@@ -1,1 +1,1 @@
-O contador está incompleto, ele é atualizado conforme eu evoluo no curso
+Projeto pessoal que  é atualizado conforme eu evoluo no curso
