@@ -33,8 +33,7 @@ export function trocarTexto() {
       msg = 'eu ja cansei de contar, acho que vou parar por aqui'
       break
     case 100:
-      mostraTex
-      const off = document.getElementById('button')
+      const off = document.getElementById('mais')
       off.classList.remove('.show')
       off.classList.add('unshow')
       break
