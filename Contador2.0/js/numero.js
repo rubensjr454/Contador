@@ -6,14 +6,12 @@ export function mais() {
   n1++
   mostraNumero()
   trocarTexto()
-  console.log('ggez')
 }
 
 export function menos() {
   n1--
   mostraNumero()
   trocarTexto()
-  console.log('ggez')
 }
 
 function mostraNumero() {
