@@ -1,4 +1,5 @@
 import { n1 } from './numero.js'
+import { numberRandom } from './random-number.js'
 var msg = ''
 function mostraTexto() {
   document.querySelector('#texto').innerHTML = msg
@@ -13,7 +14,7 @@ export function trocarTexto() {
     case 9:
       msg =
         'Caramba chegamos no 10! ja posso dizer que sou mais inteligente que a pre escola'
-        mostraTexto()
+      mostraTexto()
       break
     case 11:
       msg = '*contando feliz*'
@@ -22,7 +23,7 @@ export function trocarTexto() {
     case 29:
       msg =
         'oloko chegamos ao 30, espero que nao esteja contando quantas moedas tem no seu cofre'
-        mostraTexto()
+      mostraTexto()
       break
     case 30:
       msg = '*Se perguntando oque você esta contando* '
@@ -43,6 +44,23 @@ export function trocarTexto() {
       const off = document.getElementById('mais')
       off.classList.remove('.show')
       off.classList.add('unshow')
+      const extra = document.getElementById('extra')
+      extra.classList.remove('unshow')
+      extra.classList.add('show')
       break
+    case 101:
+      msg = 'OQUE, COMO VOCÊ CONSEGUI PASSAR?'
+      mostraTexto()
+      break
+    case 102:
+      msg = 'se você continuar terei que desafiar você'
+      mostraTexto()
+      break
+    case 104:
+      msg = 'Aqui esta seu desafio!!'
+      mostraTexto()
+      break
+    case 105:
+      numberRandom()
   }
 }
